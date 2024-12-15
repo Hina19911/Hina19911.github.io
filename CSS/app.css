@@ -11,7 +11,7 @@ body {
   display: grid;
   grid-template-columns: 300px 1fr; /* Sidebar and main content */
   grid-template-rows: auto; /* Allow rows to adjust based on content */
-  height: 100vh; /* Full viewport height */
+  height: 100vh; 
 }
 
 /* Sidebar Styling */
@@ -118,7 +118,7 @@ main {
 
 /* About Section */
 #about {
-  background-color: #44444485 ;
+  background-color: #44444482 ;
   color: white;
   padding: 100px;
   text-align: center;
@@ -171,7 +171,7 @@ main {
       width: 90%;
     }
     #detailer {
-      width: 48%;
+      width: 100%;
     }
     #scrollButtons {
       display: grid;
@@ -202,4 +202,69 @@ main {
       background-color: #0056b3; 
       border-color: #333; 
       transform: scale(1.1);
+    }
+    #contact {
+      padding: 20px;
+      background-color: #f9f9f9;
+      border-radius: 8px;
+      margin: 20px 0;
+      text-align: center;
+    }
+    
+    #contact h2 {
+      margin-bottom: 15px;
+    }
+    
+    #contact p {
+      font-size: 16px;
+      margin-bottom: 10px;
+    }
+    
+    .email-link {
+      font-size: 18px;
+      color: #007BFF;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    
+    .email-link:hover {
+      color: #0056b3;
+      text-decoration: underline;
+    }
+    #skills {
+      padding: 20px;
+      background-color: #f4f4f400;
+      text-align: center;
+    }
+    
+    #skills h2 {
+      margin-bottom: 20px;
+      font-size: 24px;
+      color: #333;
+    }
+    
+    .skills-container {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+      gap: 15px;
+    }
+    
+    .skill-box {
+      background-color: #46484b;
+      color: rgba(255, 255, 255, 0.998);
+      font-size: 15px;
+      font-weight:1em;
+      padding: 20px;
+    
+      border-radius: 8px;
+      box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      width: 100px;
+      text-align: center;
+      transition: transform 0.3s ease, background-color 0.3s ease;
+    }
+    
+    .skill-box:hover {
+      transform: translateY(-5px);
+      background-color: #0e1216;
     }
