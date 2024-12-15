@@ -1,17 +1,20 @@
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Portfolio - Maryam Hina</title>
-  <link rel="stylesheet" href="CSS/app.css">
+  <title>Web Developer Portfolio</title>
+  <link rel="stylesheet" href="/CSS/app.css">
 </head>
+
+
 <body>
   <div class="sidebar">
     <div class="profile">
       <img src="assets/profile.JPG" alt="Profile Picture">
-     <h2>Maryam Hina</h2>
-      <p>I'm a Web developer</p>
+      <h2>Maryam Hina</h2>
+      <p>I'm a Web Developer</p>
     </div>
     <nav>
       <ul>
@@ -25,34 +28,61 @@
       </ul>
     </nav>
     <div class="social-media">
-      <a href="https://www.facebook.com/yourprofile" target="_blank">
-        <img src="assets/facebook-light.png" alt="Facebook" width="30" height="30">
-      </a>
-      <a href="https://www.instagram.com/yourprofile" target="_blank">
-        <img src="assets/instagram-light.png" alt="Instagram" width="30" height="30">
-      </a>
-      <a href="https://github.com/yourprofile" target="_blank">
-        <img src="assets/github.png" alt="GitHub" width="30" height="30">
-      </a>
-      <a href="https://www.linkedin.com/in/yourprofile" target="_blank">
-        <img src="assets/linkedin.png" alt="LinkedIn" width="30" height="30">
-      </a>
+      <a href="https://facebook.com"><img src="assets/facebook-light.png" alt="Facebook"></a>
+      <a href="https://instagram.com"><img src="assets/instagram-light.png" alt="Instagram"></a>
+      <a href="https://github.com"><img src="assets/github.png" alt="GitHub"></a>
+      <a href="https://linkedin.com"><img src="assets/linkedin.png" alt="LinkedIn"></a>
     </div>
   </div>
 
-  
   <main>
     <section class="intro" id="home">
-  
-      <div class="intro-content">
-      
-      </div>
+      <h1>Welcome to My Portfolio</h1>
      
     </section>
-    
+  
+    <!-- Additional sections as needed -->
+    <section id="about">
+      <h2>About Me</h2>
+      <p>I'm Moblie and Webdeveloper student</p>
+    </section>
+    <section id="about">
+      <h2>I'm great at </h2>
+      <p>HTML,CSS,JS,PHOTOSHOP,ILLUSTRATOR,God knows rest</p>
+    </section> <section id="about">
+      <h2>About Me</h2>
+      <p>This section is about me...</p>
+    </section>
+    <section id="portfolio">
+      <h2>My Work</h2>
+      <p>All images are school projects and for educational purposes</p>
+      <div id="galleryContainer">
+        <div id="gallery">
+          <div class="galleryItem">
+            <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:52e2c284-c392-417b-b555-e52927ad3d42?view=published
+            " target="_blank">
+              <img id="luke" src="assets/logo_design.png" alt="luke">
+            </a>
+          </div>         
+          <div class="galleryItem">
+            <a href="https://xd.adobe.com/view/385c9437-4095-4cba-ad08-4d58554e4c32-6d0f/" target="_blank">
+              <img id="detailer" src="assets/xd_mockup.png" alt="detail">
+            </a>
+          </div>
+          <div class="galleryItem">
+            <a href="https://assets.adobe.com/id/urn:aaid:sc:VA6C2:d99895f0-2c43-4c2b-843e-92af21f2ce62?view=difile" target="_blank">
+              <img id="detailer" src="assets/SpaceFrontier.png" alt="detail">
+            </a>
+          </div>
+          <div class="galleryItem">Project 4</div>
+          <div class="galleryItem">Project 5</div>
+        </div>
+        <div id="scrollButtons">
+          <button id="scrollLeft" class="arrowButton">&#10094;</button>
+          <button id="scrollRight" class="arrowButton">&#10095;</button>
+        </div>
+      </div>
+    </section>
   </main>
-
-  <script src="https://kit.fontawesome.com/a076d05399.js"></script>
-  <script src="script.js"></script>
+  <script src="scripts/app.js"></script>
 </body>
-</html>
